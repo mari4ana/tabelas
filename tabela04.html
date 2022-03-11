@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>População Portugal</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        caption{
+            background-color: lightcyan;
+            padding: 20px;
+            font-size: 1.5em;
+            font-weight: bolder;
+        }
+        
+        table{
+            width: 450px;
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: rgba(228, 247, 197, 0.829);
+        }
+
+        th{
+            border: 3px solid black;
+            font-size: 1.3em;
+        }
+
+        tr, td{
+            height: 20px;
+            border: 1px solid black;
+        }
+
+        td.cidade{
+            font-weight: bolder;
+        }
+
+        td.area{
+            text-align: center;
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+        tfoot{
+            border: 3px solid black;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela população portuguesa</h1>
+    <table>
+        <caption> Populaçao de Portugal por distritos</caption>
+
+    <thead>
+        <th scope="col">Distrito</th>
+        <th scope="col" style="width: 80px;">Área (Km)</td>
+        <th scope="col" style="width: 50px;">População</td>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td class="cidade">Lisboa</td>
+            <td class="area">2761</td>
+            <td class="num">212 4426</td>
+        </tr>
+        <tr>
+            <td class="cidade">Leiria</td>
+            <td class="area">3517</td>
+            <td class="num">477 967</td>
+        </tr>
+        <tr>
+            <td class="cidade">Santarém</td>
+            <td class="area">6747</td>
+            <td class="num">445 599</td>
+        </tr>
+        <tr>
+            <td class="cidade">Setúbal</td>
+            <td class="area">5064</td>
+            <td class="num">815 858</td>
+        </tr>
+        <tr>
+            <td class="cidade">Beja</td>
+            <td class="area">10 225</td>
+            <td class="num">154 325</td>
+        </tr>
+        <tr>
+            <td class="cidade">Faro</td>
+            <td class="area">4960</td>
+            <td class="num">421 528</td>
+        </tr>
+        <tr>
+            <td class="cidade">Évora</td>
+            <td class="area">7393</td>
+            <td class="num">170 535</td>
+        </tr>
+        <tr>
+            <td class="cidade">Portalegre</td>
+            <td class="area">6065</td>
+            <td class="num">119 543</td>
+        </tr>
+        <tr>
+            <td class="cidade">Castelo Branco</td>
+            <td class="area">6675</td>
+            <td class="num">208 069</td>
+        </tr>
+        <tr>
+            <td class="cidade">Guarda</td>
+            <td class="area">5518</td>
+            <td class="num">173 831</td>
+        </tr>
+        <tr>
+            <td class="cidade">Coimbra</td>
+            <td class="area">3947</td>
+            <td class="num">436 056</td>
+        </tr>
+        <tr>
+            <td class="cidade">Aveiro</td>
+            <td class="area">2808</td>
+            <td class="num">752 867</td>
+        </tr>
+        <tr>
+            <td class="cidade">Viseu</td>
+            <td class="area">5007</td>
+            <td class="num">394 844</td>
+        </tr>
+        <tr>
+            <td class="cidade">Bragança</td>
+            <td class="area">6608</td>
+            <td class="num">148 808</td>
+        </tr>
+        <tr>
+            <td class="cidade">Vila Real</td>
+            <td class="area">4328</td>
+            <td class="num">218 935</td>
+        </tr>
+        <tr>
+            <td class="cidade">Porto</td>
+            <td class="area">2395</td>
+            <td class="num">1 867 986</td>
+        </tr>
+        <tr>
+            <td class="cidade">Braga</td>
+            <td class="area">2673</td>
+            <td class="num">879 918</td>
+        </tr>
+        <tr>
+            <td class="cidade">Viana do Castelo</td>
+            <td class="area">2255</td>
+            <td class="num">252 011</td>
+        </tr>
+
+
+
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">Total</th>
+            <td class="area"><strong>88.946</strong></td>
+            <td class="num"><strong>7.938,680</strong></td>
+        </tr>
+    </tfoot>
+</table> 
+</body>
+</html>

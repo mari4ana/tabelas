@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(241, 245, 223);
+            border: 1px solid black;
+            
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding:5px;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: cornsilk;
+        }
+
+        td.num{
+            text-align: center;
+        }
+
+        thead, tfoot{
+            background-color: bisque;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Modelos de telefones</caption>
+        <thead>
+            <tr>
+                <th scope="col">Marca</td>
+                <th scope="col" style="width: 80px">Modelo</td>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>iPhone X</td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>S10</td>
+        </tr>
+        <tr>
+            <td>Huawei</td>
+            <td>Mate 20</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+            <th scope="row">Total</th>
+            <td class="num"><strong>3</strong></td>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>
